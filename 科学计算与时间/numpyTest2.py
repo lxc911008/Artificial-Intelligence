@@ -7,7 +7,7 @@
 """
 
 import numpy as np
-#test
+
 '''
 numpy基本操作
 （1）数组与标量、数组之间的运算
@@ -27,3 +27,17 @@ numpy基本操作
 
 '''
 # （1）数组与标量、数组之间的运算
+# 矢量化数组运算，传统需要通过for循环运算
+#数组与标量矢量化运算
+ar = np.array([1,2,3,4])
+ar += 10
+print(ar)
+
+#数组与数组之间的运算
+ar2 = np.random.randint(1,10,(3,5))
+print(ar2)
+ar3 = np.random.randint(2,7,(3,5))
+print(ar3)
+ar4 = ar2 * ar3
+print(ar4)
+
