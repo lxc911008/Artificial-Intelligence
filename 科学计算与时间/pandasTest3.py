@@ -179,7 +179,7 @@ print(ser.swaplevel())
 #转换为DataFrame索引
 print(ser.unstack(level = 0))  #level 控制哪一层变为列，默认为1，stack()方法由DataFrame转变为Series
 
-#DataFrame索引
+#DataFrame索引   pandas04  24:30
 
 
 
